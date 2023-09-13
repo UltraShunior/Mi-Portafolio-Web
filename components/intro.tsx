@@ -12,7 +12,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
-  const { ref } = useSectionInView("Home", 0.5);
+  const { ref } = useSectionInView("Inicio", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
@@ -51,10 +51,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">¡Hola! Soy Nahuel.</span> <p> Soy {" "}
-        <span className="font-bold"> desarrollador web</span> freelance. </p>
-        <p> Además, soy <span className="font-bold"> profesor de programación.</span></p>
-        <p className="pt-[7rem]">¿Querés saber más de mí?</p>
+        <span className="font-bold">Hola, me llamo Nahuel.</span> <p> Soy {" "}
+        <span className="font-bold"> desarrollador web</span> freelance y </p>
+        <p><span className="font-bold"> profesor de programación.</span></p>
+        <p className="pt-[10rem] text-3xl">¿Te gustaría saber más?</p>
       </motion.h1>
 
       <motion.div
@@ -69,7 +69,7 @@ export default function Intro() {
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
-            setActiveSection("Contact");
+            setActiveSection("Contacto");
             setTimeOfLastClick(Date.now());
           }}
         >

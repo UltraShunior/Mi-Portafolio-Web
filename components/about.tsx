@@ -19,11 +19,17 @@ export default function About() {
     >
       <SectionHeading>Sobre Mí</SectionHeading>
       <p className="mb-3">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati accusantium laborum distinctio eos quia debitis assumenda adipisci pariatur et similique, sed odio architecto ab aliquam fugit possimus ex corrupti! Laboriosam.
+        Después de 4 años de formación tradicional logré conseguir mi título
+        como <b>Técnico Programador</b>. Luego de eso estuve en una{" "}
+        <b>consultora tecnológica</b> como <b>software developer </b>traineer,
+        donde di mis primeros pasos en la industria tecnológica. A demás, a inicios de
+        2022 empecé a hacer <b>desarrollos</b> de manera <b>freelance</b>, en la
+        actualidad sigo participando de estos proyectos, donde fortalezco mis
+        habilidades en tecnologías web día a día.
       </p>
-
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda non, molestias quod quisquam ipsam ad consectetur perspiciatis? Sunt ratione, exercitationem rerum dolorem mollitia sed, itaque accusamus rem harum deleniti optio?
+        También, hace más de 6 meses, tengo él privilegió de ejercer como{" "}
+        <b>profesor de programación</b> en la institución donde me formé.
       </p>
     </motion.section>
   );

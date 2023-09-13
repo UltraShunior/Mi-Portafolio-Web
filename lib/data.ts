@@ -8,7 +8,7 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
-    name: "Home",
+    name: "Inicio",
     hash: "#home",
   },
   {
@@ -16,7 +16,7 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "Projectos",
     hash: "#projects",
   },
   {
@@ -24,37 +24,37 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Experiencia",
     hash: "#experience",
   },
   {
-    name: "Contact",
+    name: "Contacto",
     hash: "#contact",
   },
 ] as const;
 
 export const experiencesData = [
   {
+    title: "Profesor de programación",
+    location: "E.E.S.T N° 5",
+    description:
+      'Aporto a más de 40 estudiantes a desarrollar sus habilidades y competencias. Esto puede incluir habilidades técnicas, como estructuras de datos y algoritmos, o habilidades blandas, como la resolución de problemas o el trabajo en equipo.',
+    icon: React.createElement(LuGraduationCap), 
+    date: "2023 - presente",
+  },
+  {
     title: "Software Developer Traineer",
     location: "MG Intelligence",
     description:
-      "Durante un periodo de 5 meses. Realice prácticas profesionalizantes en una consultora tecnológica.",
+      "Participé en el desarrollo de aplicaciones web y me encargue de la creacion de nuevas funciones para un software de gestión de inventario.",
     icon: React.createElement(CgWorkAlt),
     date: "2022",
   },
   {
-    title: "Técnico Programador",
-    location: "Buenos Aires, Argentina",
-    description:
-      "Luego de 4 años especializándome en el desarrollo de sistema informáticos, logre obtener el título de técnico programador.",
-    icon: React.createElement(LuGraduationCap), 
-    date: "2022",
-  },
-  {
     title: "Web Developer Freelance",
-    location: "Teletrabajo",
+    location: "Autónomo",
     description:
-      "Desde antes de obtener mi título comencé a trabajar creando sitios web. Hasta el día de hoy sigo implicándome en proyectos de este tipo.",
+      "Desarrollé más de 6 proyectos de diversa índole, incluyendo sitios web, aplicaciones web y sistemas de gestión.",
     icon: React.createElement(FaReact),
     date: "2022 - presente",
   },
@@ -65,7 +65,8 @@ export const projectsData = [
     title: "Nextflix",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda non, molestias quod quisquam ipsam ad consectetur perspiciatis?",
-    tags: ["React", "Next.js", "PostgreSQLñ", "Tailwind", "Prisma"],
+    tags: ["React", "Next.js", "PostgreSQL", "Tailwind", "Prisma"],
+    url: "#",
     imageUrl: corpcommentImg,
   },
   {
@@ -73,6 +74,7 @@ export const projectsData = [
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    url: "#",
     imageUrl: rmtdevImg,
   },
   {
@@ -80,6 +82,7 @@ export const projectsData = [
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    url: "#",
     imageUrl: wordanalyticsImg,
   },
 ] as const;
