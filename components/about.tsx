@@ -19,16 +19,16 @@ export default function About() {
     >
       <SectionHeading>Sobre Mí</SectionHeading>
       <p className="mb-3">
-        Después de 4 años de formación tradicional logré conseguir mi título
-        como <b>Técnico Programador</b>. Luego de eso estuve en una{" "}
+        Después de 4 años de educación formal logré conseguir mi título como{" "}
+        <b>Técnico Programador</b>. Logré entrar en una{" "}
         <b>consultora tecnológica</b> como <b>software developer </b>traineer,
-        donde di mis primeros pasos en la industria tecnológica. A demás, a inicios de
-        2022 empecé a hacer <b>desarrollos</b> de manera <b>freelance</b>, en la
-        actualidad sigo participando de estos proyectos, donde fortalezco mis
-        habilidades en tecnologías web día a día.
+        donde di mis primeros pasos en la industria tecnológica.
       </p>
       <p>
-        También, hace más de 6 meses, tengo él privilegió de ejercer como{" "}
+        A demás, a inicios de 2022 empecé a hacer <b>desarrollos</b> de manera{" "}
+        <b>freelance</b>, en la actualidad sigo participando de estos proyectos,
+        donde fortalezco mis habilidades en tecnologías web día a día. También,
+        hace más de 6 meses, tengo él privilegió de ejercer como{" "}
         <b>profesor de programación</b> en la institución donde me formé.
       </p>
     </motion.section>
