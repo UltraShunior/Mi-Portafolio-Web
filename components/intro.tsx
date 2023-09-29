@@ -38,7 +38,7 @@ export default function Intro() {
               height="192"
               quality="100"
               priority={true}
-              className="h-26 w-26 rounded-full object-cover border-[0.35rem] border-white shadow-xl sm:max-md:h-22 sm:max-md:w-22"
+              className="h-26 w-26 rounded-full object-cover border-[0.3rem] border-fuchsia-200 dark:border-slate-600 shadow-xl sm:max-md:h-22 sm:max-md:w-22"
             />
           </motion.div>
 
@@ -51,10 +51,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hola, me llamo Nahuel.</span> <p> Soy {" "}
-        <span className="font-bold"> desarrollador web</span> freelance y </p>
-        <p><span className="font-bold"> profesor de programación.</span></p>
-        <p className="pt-[10rem] text-3xl">¿Te gustaría saber más?</p>
+        <p>Hola, me llamo <span className="font-bold">Nahuel.</span>  </p>
+        <p>Soy <span className="font-bold"> desarrollador web FullStack</span></p>
+        <p> y <span className="font-bold"> profesor de programación.</span></p>
+        <p className="pt-[14rem] text-2xl">Para información acá 👇</p>
       </motion.h1>
 
       <motion.div

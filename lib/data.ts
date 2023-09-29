@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import mibenditoImg from "@/public/mibenditoImg.png";
+import tasksmngrImg from "@/public/tasks-mngr.png";
 
 export const links = [
   {
@@ -35,10 +35,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Profesor de programación",
+    title: "Profesor de Implementación de Sistemas",
     location: "E.E.S.T N° 5",
     description:
-      'Aporto a más de 40 estudiantes a desarrollar sus habilidades y competencias. Esto puede incluir habilidades técnicas, como estructuras de datos y algoritmos, o habilidades blandas, como la resolución de problemas o el trabajo en equipo.',
+      'Guío y acompaño a más de 40 estudiantes a desarrollar sus habilidades y competencias. Esto puede incluir habilidades técnicas, como estructuras de datos y algoritmos, o habilidades blandas, como la resolución de problemas o el trabajo en equipo.',
     icon: React.createElement(LuGraduationCap), 
     date: "2023 - presente",
   },
@@ -48,7 +48,7 @@ export const experiencesData = [
     description:
       "Participé en el desarrollo de aplicaciones web y me encargue de la creacion de nuevas funciones para un software de gestión de inventario.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022",
+    date: "Agosto - Diciembre 2022",
   },
   {
     title: "Web Developer Freelance",
@@ -72,18 +72,18 @@ export const projectsData = [
   {
     title: "App Expense manager",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    url: "#",
-    imageUrl: rmtdevImg,
+      "Mi primera página web como freelance. Un sitio web de una psicóloga que ofrece sus servicios de manera online.",
+    tags: ["HTML", "CSS", "MySQL", "PHP"],
+    url: "https://mibenditoadolescente.com/",
+    imageUrl: mibenditoImg,
   },
   {
-    title: "Gestor de inventario",
+    title: "TaskMaster",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    url: "#",
-    imageUrl: wordanalyticsImg,
+      "Una herramienta de gestión de tareas creada con el stack PERN. Además, cuenta con un sistema de autenticación y autorización de usuarios.",
+    tags: ["PostgreSQL", "Express", "React", "Node.js", "TypeScript"],
+    url: "https://tasks-mngr-front.onrender.com/",
+    imageUrl: tasksmngrImg,
   },
 ] as const;
 
@@ -102,7 +102,6 @@ export const skillsData = [
   "PostgreSQL",
   "Python",
   "PHP",
-  "C#",
   "JAVA",
   "Git",
   "C++",
