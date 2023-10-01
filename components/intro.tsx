@@ -7,7 +7,8 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
-import imgPerfil from "@/public/img_pefil.jpg"
+import imgPerfilWhite from "@/public/img_pefil.jpg"
+import imgPerfilDark from "@/public/img_pefil.jpg"
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
@@ -32,13 +33,22 @@ export default function Intro() {
             }}
           >
             <Image
-              src={imgPerfil}
+              src={imgPerfilWhite}
+              alt="Imagen de Nahuel"
+              width="192"
+              height="192"
+              quality="100"
+              priority={true}
+              className="h-26 w-26 rounded-full object-cover border-[0.3rem] border-fuchsia-200 dark:border-slate-600 shadow-xl dark:hidden sm:max-md:h-22 sm:max-md:w-22"
+            />
+            <Image
+              src={imgPerfilDark}
               alt="Fotografía de Nahuel"
               width="192"
               height="192"
               quality="100"
               priority={true}
-              className="h-26 w-26 rounded-full object-cover border-[0.3rem] border-fuchsia-200 dark:border-slate-600 shadow-xl sm:max-md:h-22 sm:max-md:w-22"
+              className="h-26 w-26 rounded-full object-cover border-[0.3rem] border-fuchsia-200 dark:border-slate-600 shadow-xl light:hidden sm:max-md:h-22 sm:max-md:w-22"
             />
           </motion.div>
 
