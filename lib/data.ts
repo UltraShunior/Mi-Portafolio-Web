@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/ReactCart.webp";
 import mibenditoImg from "@/public/mibenditoImg.png";
-import tasksmngrImg from "@/public/tasks-mngr.png";
+import tasksmngrImg from "@/public/TaskMasterImg.webp";
 
 export const links = [
   {
