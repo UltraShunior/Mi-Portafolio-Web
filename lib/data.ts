@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import corpcommentImg from "@/public/ReactCart.webp";
 import mibenditoImg from "@/public/mibenditoImg.png";
 import tasksmngrImg from "@/public/tasks-mngr.png";
 
@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Profesor de Implementación de Sistemas",
     location: "E.E.S.T N° 5",
     description:
-      'Guío y acompaño a más de 40 estudiantes a desarrollar sus habilidades y competencias. Esto puede incluir habilidades técnicas, como estructuras de datos y algoritmos, o habilidades blandas, como la resolución de problemas o el trabajo en equipo.',
+      'Guío y acompaño a más de 40 estudiantes de ultimo año a desarrollar sus habilidades y competencias. Esto puede incluir estructuras de datos y algoritmos, así como la resolución de problemas o el trabajo en equipo.',
     icon: React.createElement(LuGraduationCap), 
     date: "2023 - presente",
   },
@@ -54,29 +54,14 @@ export const experiencesData = [
     title: "Web Developer Freelance",
     location: "Autónomo",
     description:
-      "Desarrollé más de 6 proyectos de diversa índole, incluyendo sitios web, aplicaciones web y sistemas de gestión.",
+      "Desarrollé más de 4 proyectos de diversa índole, incluyendo sitios/aplicaciones web y sistemas de control de stock.",
     icon: React.createElement(FaReact),
     date: "2022 - presente",
   },
 ] as const;
 
 export const projectsData = [
-  {
-    title: "Nextflix",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda non, molestias quod quisquam ipsam ad consectetur perspiciatis?",
-    tags: ["React", "Next.js", "PostgreSQL", "Tailwind", "Prisma"],
-    url: "#",
-    imageUrl: corpcommentImg,
-  },
-  {
-    title: "App Expense manager",
-    description:
-      "Mi primera página web como freelance. Un sitio web de una psicóloga que ofrece sus servicios de manera online.",
-    tags: ["HTML", "CSS", "MySQL", "PHP"],
-    url: "https://mibenditoadolescente.com/",
-    imageUrl: mibenditoImg,
-  },
+  
   {
     title: "TaskMaster",
     description:
@@ -84,6 +69,22 @@ export const projectsData = [
     tags: ["PostgreSQL", "Express", "React", "Node.js", "TypeScript"],
     url: "https://tasks-mngr-front.onrender.com/",
     imageUrl: tasksmngrImg,
+  },
+  {
+    title: "React Cart🛒",
+    description:
+      "Una aplicación web de carrito de compras creada con React y Tailwind CSS. Cuenta con un carrito de compras persistente.",
+    tags: ["HTML", "CSS", "JavaScript", "React", "JSON"],
+    url: "https://github.com/UltraShunior/React-Cart",
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "Mi Bendito Adolescente",
+    description:
+      "Mi primera página web como freelance. Un sitio web de una psicóloga que ofrece sus servicios de manera online.",
+    tags: ["HTML", "CSS", "PHP", "JavaScript","MySQL"],
+    url: "https://mibenditoadolescente.com/",
+    imageUrl: mibenditoImg,
   },
 ] as const;
 
