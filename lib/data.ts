@@ -67,7 +67,7 @@ export const projectsData = [
     description:
       "Una herramienta de gestión de tareas creada con el stack PERN. Además, cuenta con un sistema de autenticación y autorización de usuarios.",
     tags: ["PostgreSQL", "Express", "React", "Node.js", "TypeScript"],
-    url: "https://tasks-mngr-front.onrender.com/",
+    url: "https://github.com/UltraShunior/tasks-mngr_with-auth",
     imageUrl: tasksmngrImg,
   },
   {
