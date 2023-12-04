@@ -8,7 +8,6 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import imgPerfilWhite from "@/public/img_perfil_light.jpg";
-import imgPerfilDark from "@/public/img_pefil_dark.jpg";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { useTheme } from "@/context/theme-context";
@@ -34,27 +33,15 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            {theme === "light" ? (
-              <Image
-                src={imgPerfilWhite}
-                alt="Imagen de Nahuel"
-                width="192"
-                height="192"
-                quality="100"
-                priority={true}
-                className="h-26 w-26 rounded-full object-cover border-[0.3rem] border-pink-200 shadow-xl dark:hidden sm:max-md:h-22 sm:max-md:w-22"
-              />
-            ) : (
-              <Image
-                src={imgPerfilDark}
-                alt="Fotografía de Nahuel"
-                width="192"
-                height="192"
-                quality="100"
-                priority={true}
-                className="h-26 w-26 rounded-full object-cover border-[0.3rem] dark:border-slate-600 shadow-xl sm:max-md:h-22 sm:max-md:w-22"
-              />
-            )}
+            <Image
+              src={imgPerfilWhite}
+              alt="Fotografía de Nahuel"
+              width="192"
+              height="192"
+              quality="100"
+              priority={true}
+              className="h-26 w-26 rounded-full object-cover border-[0.3rem] dark:border-slate-600 shadow-xl sm:max-md:h-22 sm:max-md:w-22"
+            />
           </motion.div>
         </div>
       </div>
@@ -111,7 +98,7 @@ export default function Intro() {
         </a>
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-600 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/80 dark:text-black dark:hover:bg-white"
           onClick={() => {
             setActiveSection("Contacto");
             setTimeOfLastClick(Date.now());
