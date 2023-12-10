@@ -29,7 +29,7 @@ export default function About() {
         <b>freelance</b>. Hasta la actualidad continúo involucrándome en este tipo
         de proyectos, donde fortalezco mis habilidades con tecnologías web día a
         día. También, hace más 1 año, tengo el privilegió de ejercer como{" "}
-        <b>profesor de programación</b> en la institución donde me formé.
+        <b>profesor de Implementación de Sistemas</b> en la institución donde me formé.
       </p>
     </motion.section>
   );
