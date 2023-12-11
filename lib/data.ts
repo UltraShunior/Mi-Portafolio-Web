@@ -3,7 +3,6 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/ReactCart.webp";
-import mibenditoImg from "@/public/mibenditoImg.png";
 import tasksmngrImg from "@/public/TaskMasterImg.webp";
 
 export const links = [
@@ -12,7 +11,7 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "About",
+    name: "Sobre mí",
     hash: "#about",
   },
   {
@@ -20,7 +19,7 @@ export const links = [
     hash: "#projects",
   },
   {
-    name: "Skills",
+    name: "Tecnologías",
     hash: "#skills",
   },
   {
@@ -77,14 +76,6 @@ export const projectsData = [
     tags: ["HTML", "CSS", "JavaScript", "React", "JSON"],
     url: "https://github.com/UltraShunior/React-Cart",
     imageUrl: corpcommentImg,
-  },
-  {
-    title: "Mi Bendito Adolescente",
-    description:
-      "Mi primera página web como freelance. Un sitio web de una psicóloga que ofrece sus servicios de manera online.",
-    tags: ["HTML", "CSS", "PHP", "JavaScript","MySQL"],
-    url: "https://mibenditoadolescente.com/",
-    imageUrl: mibenditoImg,
   },
 ] as const;
 
