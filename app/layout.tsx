@@ -19,6 +19,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  //Devuelve el layout de la pagina
   return (
     <html lang="es-ar" className="!scroll-smooth">
       <body
@@ -33,6 +34,7 @@ export default function RootLayout({
             {children}
             <Footer />
 
+          
             <Toaster position="top-right" />
             <ThemeSwitch />
           </ActiveSectionContextProvider>
