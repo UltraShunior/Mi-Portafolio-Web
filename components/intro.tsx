@@ -7,7 +7,7 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
-import imgPerfilWhite from "@/public/img_perfil_light.jpg";
+import imgPerfilWhite from "@/public/Logo Nahuel (3).png";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { useTheme } from "@/context/theme-context";
@@ -21,7 +21,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      className="mb-28 max-w-[50rem] min-h-[70vh] text-center sm:mb-0 scroll-mt-[100rem]"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -47,21 +47,20 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-base font-medium !leading-[1.5] sm:text-4xl"
+        className="mt-4 px-4 text-base font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         <p>
-          Hola, me llamo <span className="font-bold">Nahuel.</span>{" "}
+          <span className="font-bold">Full-Stack</span> developer, {" "}
         </p>
         <p>
-          Soy desarrollador web <span className="font-bold"> FullStack</span>
+        apasionado por el <span className="font-bold">conocimiento</span>
         </p>
-        <p>
+        <p className="mb-[4rem]">
           {" "}
-          y <span className="font-bold"> profesor </span> de programación.
+          y el <span className="font-bold">desarrollo de software</span>.
         </p>
-        <p className="pt-[14rem] text-2xl">Para información acá 👇</p>
       </motion.h1>
 
       <motion.div
