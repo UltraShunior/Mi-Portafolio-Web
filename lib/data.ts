@@ -37,25 +37,25 @@ export const experiencesData = [
     title: "Profesor de Implementación de Sistemas",
     location: "E.E.S.T N° 5",
     description:
-      'Guío y acompaño a más de 40 estudiantes de ultimo año a desarrollar sus habilidades y competencias. Esto puede incluir estructuras de datos y algoritmos, así como la resolución de problemas o el trabajo en equipo.',
-    icon: React.createElement(LuGraduationCap), 
+      'Guío y acompaño a más de 45 estudiantes de ultimo año a desarrollar sus habilidades y competencias. Esto puede incluir implementación de algoritmos o estructuras de datos, así como el pensamiento computacional y la resolución de problemas en equipo.',
+    icon: React.createElement(LuGraduationCap),
     date: "2023 - presente",
   },
   {
     title: "Software Developer Traineer",
     location: "MG Intelligence",
     description:
-      "Participé en el desarrollo de aplicaciones web y me encargue de la creacion de nuevas funciones para un software de gestión de inventario.",
+      "Desarrollo de aplicaciones web: Participé en el desarrollo de aplicaciones web utilizando tecnologías como Node.js, Express, Vue y Vuetify. Creación de nuevas funciones de un ERP: Me encargué de la creación de nuevas funciones de un ERP utilizando AdvPL y Postgress, ayudando así a las empresas a gestionar sus procesos financieros, de producción, de ventas, de inventario y de recursos humanos.",
     icon: React.createElement(CgWorkAlt),
-    date: "Agosto - Diciembre 2022",
+    date: "Julio - Diciembre 2022",
   },
   {
     title: "Web Developer Freelance",
     location: "Autónomo",
     description:
-      "Desarrollé más de 4 proyectos de diversa índole, incluyendo sitios/aplicaciones web y sistemas de control de stock.",
+      "Desarrollé más de varios proyectos de diversa índole, incluyendo aplicaciones web y sistemas ERP, e-commerce y plataformas de aprendizaje online",
     icon: React.createElement(FaReact),
-    date: "2022 - presente",
+    date: "Mayo 2022 - presente",
   },
 ] as const;
 
