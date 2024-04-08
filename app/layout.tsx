@@ -1,4 +1,5 @@
 import Header from "@/components/header";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css";
 import { Inter } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/active-section-context";
