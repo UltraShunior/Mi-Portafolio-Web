@@ -52,14 +52,14 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <p>
-          <span className="font-bold">Full-Stack</span> developer, {" "}
+          Desarrollador <span className="font-bold">Full-Stack</span>, {" "}
         </p>
         <p>
         apasionado por el <span className="font-bold">conocimiento</span>
         </p>
         <p className="mb-[4rem]">
           {" "}
-          y el <span className="font-bold">desarrollo de software</span>.
+          y el <span className="font-bold">desarrollo de sistemas tecnológicos</span>.
         </p>
       </motion.h1>
 

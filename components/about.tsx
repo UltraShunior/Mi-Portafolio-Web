@@ -19,18 +19,15 @@ export default function About() {
     >
       <SectionHeading>¡Hola!👋</SectionHeading>
       <p className="mb-3">
-        Mi nombre es Nahuel Bogado, soy <b>Técnico Programador</b>. {" "}
-        Tengo experiencia trabajando en una <b>consultora tecnológica</b> como{" "}
-        <b>software developer </b>, acá fue donde di mis primeros pasos en la industria
-        tecnológica.
+        Soy Nahuel Bogado, y llevo más de dos años construyendo mi carrera en el{" "}
+        <b>desarrollo de software</b>. Comencé trabajando como <b>freelancer</b>
+        , creando soluciones con HTML, CSS, PHP y JavaScript. {" "}
+        En 2022, di el salto a la <b> industria tecnológica</b> al unirme a una consultora como <b>Desarrollador de Software.</b> {" "}
+        Además, tras graduarme como <b>Técnico Programador</b>, a principios de 2023 comencé a enseñar en la misma institución donde me formé, compartiendo mi pasión por la programación con los estudiantes.
       </p>
       <p>
-        Además, a inicios de 2022 empecé a hacer <b>desarrollos</b> de manera{" "}
-        <b>freelance</b>. Hasta la actualidad continúo involucrándome en este
-        tipo de proyectos, donde fortalezco mis habilidades con tecnologías web
-        día a día. Actualmente, tengo el privilegió de ejercer como{" "}
-        <b>profesor de Implementación de Sistemas</b>.
-      </p>
+      En la actualidad, mi especialización se enfoca en el desarrollo de interfaces de usuario dinámicas y responsivas con <b>Next.js</b> y <b>Tailwind CSS</b>  para el frontend, así como en la creación de aplicaciones de servidor robustas utilizando <b>Node.js</b> y <b>Express</b> para el backend. Tengo competencia en el manejo de bases de datos SQL, trabajando tanto con <b>PostgreSQL</b> como con <b>MySQL</b>. Continúo ampliando mis habilidades técnicas y estoy en proceso de capacitación en <b>MongoDB</b>, <b>AWS</b>, <b>Jest</b>, <b>Cypress</b>, <b>Playwright</b> y y prácticas de <b>Integración y Entrega Continuas (CI/CD)</b>, lo que fortalece mi perfil como desarrollador Full Stack.
+      </p> 
     </motion.section>
   );
 }

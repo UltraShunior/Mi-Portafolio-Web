@@ -8,8 +8,10 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        '3xl': '2000px',
+        'xl': '1298px',
         // => @media (min-width: 1400px) { ... }
+        '3xl': '2000px',
+        // => @media (min-width: 2000px) { ... }
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
