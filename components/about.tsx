@@ -26,7 +26,7 @@ export default function About() {
         Además, tras graduarme como <b>Técnico Programador</b>, a principios de 2023 comencé a enseñar en la misma institución donde me formé, compartiendo mi pasión por la programación con los estudiantes.
       </p>
       <p>
-      En la actualidad, mi especialización se enfoca en el desarrollo de interfaces de usuario dinámicas y responsivas con <b>Next.js</b> y <b>Tailwind CSS</b>  para el frontend, así como en la creación de aplicaciones de servidor robustas utilizando <b>Node.js</b> y <b>Express</b> para el backend. Tengo competencia en el manejo de bases de datos SQL, trabajando tanto con <b>PostgreSQL</b> como con <b>MySQL</b>. Continúo ampliando mis habilidades técnicas y estoy en proceso de capacitación en <b>MongoDB</b>, <b>AWS</b>, <b>Jest</b>, <b>Cypress</b>, <b>Playwright</b> y y prácticas de <b>Integración y Entrega Continuas (CI/CD)</b>, lo que fortalece mi perfil como desarrollador Full Stack.
+      En la actualidad, mi especialización se enfoca en el desarrollo de interfaces de usuario dinámicas y responsivas con <b>Next.js</b> y <b>Tailwind CSS</b>  para el frontend, así como en la creación de aplicaciones de servidor robustas utilizando <b>Node.js</b> y <b>Express</b> para el backend. Tengo competencia en el manejo de bases de datos SQL, trabajando tanto con <b>PostgreSQL</b> como con <b>MySQL</b>. Continúo ampliando mis habilidades técnicas y estoy en proceso de capacitación en <b>MongoDB</b>, <b>AWS</b>, <b>Jest</b>, <b>Cypress</b>, <b>Playwright</b> y prácticas de <b>Integración y Entrega Continuas (CI/CD)</b>, lo que fortalece mi perfil como desarrollador Full Stack.
       </p> 
     </motion.section>
   );

@@ -37,7 +37,7 @@ export const experiencesData = [
     title: "Profesor de Implementación de Sistemas",
     location: "E.E.S.T N° 5",
     description:
-      'Guío y acompaño a más de 45 estudiantes de ultimo año a desarrollar sus habilidades y competencias. Esto puede incluir implementación de algoritmos o estructuras de datos, así como el pensamiento computacional y la resolución de problemas en equipo.',
+      'Guío y acompaño a más de 45 estudiantes del ultimo año a desarrollar sus habilidades y competencias. Esto puede incluir implementación de algoritmos o estructuras de datos, así como el pensamiento computacional y la resolución de problemas en equipo.',
     icon: React.createElement(LuGraduationCap),
     date: "2023 - presente",
   },
