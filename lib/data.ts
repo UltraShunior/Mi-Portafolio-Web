@@ -60,7 +60,22 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  
+  {
+    title: "TaskMaster",
+    description:
+      "Una herramienta de gestión de tareas creada con el stack PERN. Además, cuenta con un sistema de autenticación y autorización de usuarios.",
+    tags: ["PostgreSQL", "Express", "React", "Node.js", "TypeScript"],
+    url: "https://github.com/UltraShunior/tasks-mngr_with-auth",
+    imageUrl: tasksmngrImg,
+  },
+  {
+    title: "React Cart🛒",
+    description:
+      "Una aplicación web de carrito de compras creada con React y Tailwind CSS. Cuenta con un carrito de compras persistente.",
+    tags: ["HTML", "CSS", "JavaScript", "React", "JSON"],
+    url: "https://github.com/UltraShunior/React-Cart",
+    imageUrl: corpcommentImg,
+  },
   {
     title: "TaskMaster",
     description:
