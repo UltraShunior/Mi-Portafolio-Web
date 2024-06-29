@@ -36,7 +36,7 @@ export default function Project({
         target="_blank"
         rel="noopener"
       >
-        <section className="bg-gray-100 max-w-[32rem] grid grid-rows-2 gap-4 border border-black/5 rounded-lg overflow-hidden relative sm:h-[30rem] hover:bg-gray-200 dark:text-white dark:bg-white/10 dark:border-white/10 dark:hover:bg-white/20">
+        <section className="bg-gray-100 max-w-[32rem] grid grid-rows-2 gap-4 border border-black/5 rounded-lg overflow-hidden relative max-h-[30rem] hover:bg-gray-200 dark:text-white dark:bg-white/10 dark:border-white/10 dark:hover:bg-white/20">
           <div>
             <Image
               src={imageUrl}
