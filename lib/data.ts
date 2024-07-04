@@ -61,7 +61,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "TaskMaster",
+    title: "Proyecto1",
     description:
       "Una herramienta de gestión de tareas creada con el stack PERN. Además, cuenta con un sistema de autenticación y autorización de usuarios.",
     tags: ["PostgreSQL", "Express", "React", "Node.js", "TypeScript"],
@@ -69,7 +69,7 @@ export const projectsData = [
     imageUrl: tasksmngrImg,
   },
   {
-    title: "React Cart🛒",
+    title: "Proyecto2",
     description:
       "Una aplicación web de carrito de compras creada con React y Tailwind CSS. Cuenta con un carrito de compras persistente.",
     tags: ["HTML", "CSS", "JavaScript", "React", "JSON"],
@@ -77,7 +77,23 @@ export const projectsData = [
     imageUrl: corpcommentImg,
   },
   {
-    title: "TaskMaster",
+    title: "Proyecto3",
+    description:
+      "Una herramienta de gestión de tareas creada con el stack PERN. Además, cuenta con un sistema de autenticación y autorización de usuarios.",
+    tags: ["PHP", "MySQLP", "CSS", "JavaScript", "Bootstrap", ],
+    url: "https://github.com/UltraShunior/tasks-mngr_with-auth",
+    imageUrl: tasksmngrImg,
+  },
+  {
+    title: "Proyecto4",
+    description:
+      "Una aplicación web de carrito de compras creada con React y Tailwind CSS. Cuenta con un carrito de compras persistente.",
+    tags: ["Next.js", "HTML", "Node", "Express", "TypeScript"],
+    url: "https://github.com/UltraShunior/React-Cart",
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "Proyecto5",
     description:
       "Una herramienta de gestión de tareas creada con el stack PERN. Además, cuenta con un sistema de autenticación y autorización de usuarios.",
     tags: ["PostgreSQL", "Express", "React", "Node.js", "TypeScript"],
@@ -85,10 +101,10 @@ export const projectsData = [
     imageUrl: tasksmngrImg,
   },
   {
-    title: "React Cart🛒",
+    title: "Proyecto6",
     description:
       "Una aplicación web de carrito de compras creada con React y Tailwind CSS. Cuenta con un carrito de compras persistente.",
-    tags: ["HTML", "CSS", "JavaScript", "React", "JSON"],
+    tags: ["CSS", "JavaScript", "React", "JSON"],
     url: "https://github.com/UltraShunior/React-Cart",
     imageUrl: corpcommentImg,
   },
@@ -96,7 +112,7 @@ export const projectsData = [
     title: "TaskMaster",
     description:
       "Una herramienta de gestión de tareas creada con el stack PERN. Además, cuenta con un sistema de autenticación y autorización de usuarios.",
-    tags: ["PostgreSQL", "Express", "React", "Node.js", "TypeScript"],
+    tags: ["MySQL", "Express", "React", "Node.js", "TypeScript"],
     url: "https://github.com/UltraShunior/tasks-mngr_with-auth",
     imageUrl: tasksmngrImg,
   },
@@ -104,22 +120,7 @@ export const projectsData = [
     title: "React Cart🛒",
     description:
       "Una aplicación web de carrito de compras creada con React y Tailwind CSS. Cuenta con un carrito de compras persistente.",
-    tags: ["HTML", "CSS", "JavaScript", "React", "JSON"],
-    url: "https://github.com/UltraShunior/React-Cart",
-    imageUrl: corpcommentImg,
-  },{
-    title: "TaskMaster",
-    description:
-      "Una herramienta de gestión de tareas creada con el stack PERN. Además, cuenta con un sistema de autenticación y autorización de usuarios.",
-    tags: ["PostgreSQL", "Express", "React", "Node.js", "TypeScript"],
-    url: "https://github.com/UltraShunior/tasks-mngr_with-auth",
-    imageUrl: tasksmngrImg,
-  },
-  {
-    title: "React Cart🛒",
-    description:
-      "Una aplicación web de carrito de compras creada con React y Tailwind CSS. Cuenta con un carrito de compras persistente.",
-    tags: ["HTML", "CSS", "JavaScript", "React", "JSON"],
+    tags: ["PHP", "CSS", "JavaScript", "React", "JSON"],
     url: "https://github.com/UltraShunior/React-Cart",
     imageUrl: corpcommentImg,
   },
