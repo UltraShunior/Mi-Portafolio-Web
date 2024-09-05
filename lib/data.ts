@@ -53,7 +53,7 @@ export const experiencesData = [
     title: "Web Developer Freelance",
     location: "Autónomo",
     description:
-      "Desarrollé más de varios proyectos de diversa índole, incluyendo aplicaciones web y sistemas ERP, e-commerce y plataformas de aprendizaje online",
+      "Desarrollé varios proyectos de diversa índole, incluyendo aplicaciones web y sistemas ERP, e-commerce y plataformas de aprendizaje online",
     icon: React.createElement(FaReact),
     date: "Mayo 2022 - presente",
   },
