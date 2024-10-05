@@ -46,9 +46,9 @@ export default function Projects() {
   };
 
   return (
-    <section ref={ref} id="projects" className="scroll-mt-28 mb-14 w-[80%] max-sm:w-full max-sm:px-4 max-sm:mx-auto max-sm:scroll-mt-16">
+    <section ref={ref} id="projects" className="scroll-mt-28 mb-14 w-[70%] max-sm:w-full max-sm:px-4 max-sm:mx-auto max-sm:scroll-mt-16">
       <SectionHeading>Mis proyectos 📚</SectionHeading>
-      <div className="my-8 w-full flex flex-row items-center gap-4 max-sm:justify-center max-sm:gap-2 max-sm:text-center">
+      <div className="my-8 w-full  flex flex-row items-center gap-4 max-sm:justify-center max-sm:gap-2 max-sm:text-center">
         <p className="text-[1rem] text-gray-700 dark:text-white/70">
           Filtrar por tecnologías:
         </p>
@@ -81,7 +81,7 @@ export default function Projects() {
           </DropdownMenu>
         </Dropdown>
       </div>
-      <div className="grid grid-cols-[repeat(auto-fit,_minmax(400px,_1fr))] gap-8  max-sm:grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] max-sm:gap-2 max-sm:px-4" >
+      <div className="mx-auto grid grid-cols-[repeat(auto-fit,_minmax(20rem,_1fr))] gap-8 max-sm:grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] max-sm:gap-2 max-sm:px-4" >
         {projetsSelected.map((project, index) => (
           <React.Fragment key={index}>
             <Project {...project} />

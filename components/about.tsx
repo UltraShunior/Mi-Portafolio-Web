@@ -17,7 +17,7 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>¡Hola!👋</SectionHeading>
+      <SectionHeading>Sobre mí🧑‍💻</SectionHeading>
       <p className="mb-3">
         Soy Nahuel Bogado, y llevo más de dos años construyendo mi carrera en el{" "}
         <b>desarrollo de software</b>. Comencé trabajando como <b>freelancer</b>
