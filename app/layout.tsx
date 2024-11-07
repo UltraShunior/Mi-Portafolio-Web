@@ -11,7 +11,7 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Nahuel Bogado | Portfolio Personal",
+  title: "Nahuel Bogado | Portfolio Profesional",
   description: "FullStack Developer, apasionado por el conocimiento y el desarrollo de software.",
 };
 
