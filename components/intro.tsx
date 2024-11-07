@@ -11,6 +11,8 @@ import svgIllustration from "@/public/developer-dark.3f07bd13.svg";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { useTheme } from "@/context/theme-context";
+import logo from "@/public/logoso.png";
+import logoDark from "@/public/logosoDark.png";
 
 export default function Intro() {
   const { ref } = useSectionInView("Inicio", 0.5);
@@ -26,25 +28,28 @@ export default function Intro() {
       <div className="grid grid-cols-2 m-auto min-h-[32rem] max-lg:grid-cols-1">
         <div className="max-w-[90%] m-auto">
           <motion.h1
-            className="mt-4 px-4 text-foreground-800 font-medium !leading-[1.5] sm:text-4xl "
+            className="mt-4 px-4 text-foreground-800 font-medium !leading-[1.5] sm:text-4xl hidden"
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            <p>
-              Desarrollador <span className="font-bold ">Full-Stack</span>,{" "}
-            </p>
-            <p>
-              apasionado por el <span className="font-bold ">conocimiento</span>
-            </p>
-            <p className="mb-[4rem]">
-              {" "}
-              y el{" "}
-              <span className="font-bold">
-                desarrollo de sistemas tecnológicos
-              </span>
-              .
-            </p>
+            Nahuel <span className="text-primary-500 dark:text-secondary-700">Bogado</span>
           </motion.h1>
+          <motion.div
+            className="flex items-center justify-center gap-2"
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 }}
+          >
+            <Image src={theme=="light"?logo:logoDark} alt="Logo de Nahuel Bogado" width={300} height={300} />
+          </motion.div>
+          <motion.p
+            className="mb-[2rem] px-4 text-foreground-800 font-semibold sm:text-2xl"
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 }}
+          >
+            Construyendo soluciones tecnológicas con pasión
+          </motion.p>
 
           <motion.div
             className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"

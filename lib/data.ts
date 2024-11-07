@@ -11,16 +11,12 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "Sobre mí",
-    hash: "#about",
-  },
-  {
     name: "Proyectos",
     hash: "#projects",
   },
   {
-    name: "Tecnologías",
-    hash: "#skills",
+    name: "Sobre mí",
+    hash: "#about",
   },
   {
     name: "Experiencia",
@@ -37,15 +33,15 @@ export const experiencesData = [
     title: "Profesor de Implementación de Sistemas",
     location: "E.E.S.T N° 5",
     description:
-      'Guío y acompaño a más de 45 estudiantes del ultimo año a desarrollar sus habilidades y competencias. Esto puede incluir implementación de algoritmos o estructuras de datos, así como el pensamiento computacional y la resolución de problemas en equipo.',
+      "Guío a más de 50 estudiantes en el desarrollo de habilidades en algoritmos de programación y desarrollo de software.",
     icon: React.createElement(LuGraduationCap),
     date: "2023 - presente",
   },
   {
-    title: "Software Developer Traineer",
+    title: "Software Developer Trainee",
     location: "MG Intelligence",
     description:
-      "Desarrollo de aplicaciones web: Participé en el desarrollo de aplicaciones web utilizando tecnologías como Node.js, Express, Vue y Vuetify. Creación de nuevas funciones de un ERP: Me encargué de la creación de nuevas funciones de un ERP utilizando AdvPL y Postgress, ayudando así a las empresas a gestionar sus procesos financieros, de producción, de ventas, de inventario y de recursos humanos.",
+      "Participé en el desarrollo de aplicaciones web con Node.js, Express, Vue y Vuetify. Implementé nuevas funciones en un ERP usando AdvPL y PostgreSQL.",
     icon: React.createElement(CgWorkAlt),
     date: "Julio - Diciembre 2022",
   },
@@ -53,7 +49,7 @@ export const experiencesData = [
     title: "Web Developer Freelance",
     location: "Autónomo",
     description:
-      "Desarrollé varios proyectos de diversa índole, incluyendo aplicaciones web y sistemas ERP, e-commerce y plataformas de aprendizaje online",
+      "Desarrollé diversos proyectos web, sistemas ERP, e-commerce y plataformas de aprendizaje online.",
     icon: React.createElement(FaReact),
     date: "Mayo 2022 - presente",
   },

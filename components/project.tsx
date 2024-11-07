@@ -29,14 +29,10 @@ export default function Project({
         scale: scaleProgess,
         opacity: opacityProgess,
       }}
-      className="group mb-3 mx-auto sm:mb-8 last:mb-0"
+      className="group mb-3 mx-auto sm:mb-8 last:mb-0 "
     >
-      <a
-        href={url}
-        target="_blank"
-        rel="noopener"
-      >
-        <div className="bg-gray-100 max-w-[26rem] max-h-[28rem] grid grid-rows-2 border border-black/5 shadow-sm rounded-lg overflow-hidden relative hover:shadow-large hover:saturate-[1.1] hover:bg-gray-200 transition dark:text-white dark:bg-white/10 dark:border-white/10 dark:hover:bg-white/20">
+      <a href={url} target="_blank" rel="noopener">
+        <div className="bg-gray-100 max-w-[26rem] max-h-[28rem] grid grid-rows-2 border border-black/5 rounded-lg overflow-hidden relative hover:shadow-lg hover:saturate-[1.1] hover:bg-gray-200 transition dark:text-white dark:bg-white/10 dark:border-white/10 dark:hover:bg-white/20">
           <div>
             <Image
               src={imageUrl}
