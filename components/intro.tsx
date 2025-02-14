@@ -48,7 +48,7 @@ export default function Intro() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
           >
-            Construyendo soluciones tecnológicas con pasión
+            Construyendo soluciones tecnológicas de forma inteligente
           </motion.p>
 
           <motion.div
