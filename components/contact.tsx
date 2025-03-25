@@ -33,8 +33,8 @@ export default function Contact() {
 
       <p className="text-gray-700 mt-14 dark:text-white/80">
         Podés enviar un mail a{" "}
-        <a className="underline" href="mailto:ultrashunior@gmail.com">
-          ultrashunior@gmail.com
+        <a className="underline" href="mailto:nbogado@nawe.dev">
+          nbogado@nawe.dev
         </a>{" "}
         o a través de este formulario:
       </p>
